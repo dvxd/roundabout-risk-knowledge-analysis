@@ -1,0 +1,3 @@
+[submodule "src/MI/EDGE"]
+	path = src/MI/EDGE
+	url = https://github.com/mrtnoshad/EDGE.git
