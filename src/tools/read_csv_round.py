@@ -77,7 +77,7 @@ def read_track_csv(arguments):
 
     # Use groupby to aggregate track info. Less error prone than iterating
     # over the data.
-    grouped = df.groupby([TRACK_ID], sort=False)
+    grouped = df.groupby(TRACK_ID, sort=False)
     # Efficiently pre-allocate an empty list of sufficient size
     tracks = [None] * grouped.ngroups
     current_track = 0
